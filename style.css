@@ -121,11 +121,16 @@ ol p {
 
     nav ul {
         display: block;
+        padding-inline-start: 40px;
+        padding-inline-end: 40px;
     }
 
     nav ul li {
         display: block;
         margin-bottom: 20px;
-        width: 100%;
+    }
+
+    a {
+        display: block;
     }
 }
